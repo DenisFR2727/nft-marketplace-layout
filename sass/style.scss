@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: #2b2b2b;
+}
+@import "_nav.scss";
+@import "_header.scss";
+@import "_trending-collection.scss";
+
+// tablet
+@import "./tablet/nav.tablet";
+@import "./tablet/_header.tablet.scss";
+@import "./tablet/trending.tablet";
+
+// mobile
+@import "./mobile/nav.mobile";
+@import "./mobile/header.mobile";
+@import "./mobile/trending.mobile";

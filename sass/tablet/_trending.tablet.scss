@@ -1,0 +1,104 @@
+@media (max-width: 834px) {
+  .trending-collection {
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-bottom: 40px;
+
+    .trading-text {
+      width: 100%;
+      .text-lg {
+      }
+      .text-sm {
+      }
+    }
+    .collection-card {
+      display: flex;
+      width: 690px;
+      align-items: flex-start;
+      gap: 30px;
+
+      .tablet-card-hidden {
+        display: none;
+      }
+      .card {
+        .fhoto-nft {
+          img {
+          }
+        }
+        .collection {
+          .nft {
+          }
+          .counter-nft {
+            .num {
+            }
+          }
+        }
+        .collection-name {
+          .nft-names {
+          }
+          .avatar {
+            img {
+            }
+            p {
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 800px) {
+  .trending-collection {
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-bottom: 40px;
+    // display: flex;
+
+    .trading-text {
+      width: 100%;
+      .text-lg {
+      }
+      .text-sm {
+      }
+    }
+    .collection-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: 30px;
+      width: 100%;
+      .mobile-card-hidden {
+        display: none;
+      }
+      .tablet-card-hidden {
+        display: none;
+      }
+      .card {
+        .fhoto-nft {
+          img {
+          }
+        }
+        .collection {
+          .nft {
+          }
+          .counter-nft {
+            .num {
+            }
+          }
+        }
+        .collection-name {
+          .nft-names {
+          }
+          .avatar {
+            img {
+            }
+            p {
+            }
+          }
+        }
+      }
+    }
+  }
+}

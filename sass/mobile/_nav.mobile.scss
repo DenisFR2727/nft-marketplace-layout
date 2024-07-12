@@ -1,0 +1,50 @@
+@media (max-width: 430px) {
+  .nav-menu {
+    width: 100%;
+    max-width: 430px;
+    nav {
+      padding: 15px 30px;
+
+      .logo-marketplace {
+        a {
+          .logo {
+            width: 30px;
+            height: 30px;
+          }
+        }
+        a {
+          .logo-text {
+            // width: 160.56px;
+            // height: 20.85px;
+            flex-shrink: 0;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 375px) {
+  .nav-menu {
+    width: 100%;
+    max-width: 375px;
+    nav {
+      padding: 15px 30px;
+
+      .logo-marketplace {
+        a {
+          .logo {
+            width: 24px;
+            height: 24px;
+          }
+        }
+        a {
+          .logo-text {
+            width: 149.56px;
+            height: 14.85px;
+            flex-shrink: 0;
+          }
+        }
+      }
+    }
+  }
+}

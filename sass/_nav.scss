@@ -1,0 +1,143 @@
+.nav-menu {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    padding: 20px 50px;
+
+    .logo-marketplace {
+      display: flex;
+      align-items: center;
+
+      a {
+        text-decoration: none;
+        .logo-text {
+          padding-left: 12px;
+        }
+      }
+    }
+    ul {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 10px;
+      li {
+        list-style: none;
+        display: flex;
+        height: 46px;
+        padding: 0px 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        position: relative;
+
+        &:hover::before {
+          transform: scaleX(1);
+        }
+        &:before {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 2px;
+          background-color: #a259ff;
+          bottom: 0;
+          left: 0;
+          transform: scaleX(0);
+          transition: transform 0.3s;
+        }
+
+        a {
+          text-decoration: none;
+          color: #fff;
+          text-align: center;
+          font-family: "Work Sans";
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 140%;
+        }
+      }
+      .btn-nav {
+        display: flex;
+        height: 60px;
+        padding: 0px 30px;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        background-color: #a259ff;
+        border-radius: 20px;
+        cursor: pointer;
+        user-select: none;
+        a {
+          color: #fff;
+          text-decoration: none;
+          text-align: center;
+          font-family: "Work Sans";
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 140%;
+        }
+      }
+    }
+    .burger-menu {
+      display: none;
+      width: 24px;
+      height: 24px;
+      cursor: pointer;
+      user-select: none;
+    }
+    #toggle {
+      display: none;
+    }
+    #dropdown {
+      width: 300px;
+      position: absolute;
+      display: block;
+      top: 80px;
+      display: none;
+      opacity: 0;
+      max-height: 0;
+      overflow: hidden;
+      padding: 20px;
+      border-radius: 0 10px 10px 10px;
+      background: #a259ff;
+      li {
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+
+        a {
+          color: #575c74;
+          font-weight: 600;
+        }
+        a:hover {
+          color: white;
+        }
+      }
+    }
+    #toggle[type="checkbox"]:checked ~ #dropdown {
+      display: block;
+      font-family: Poppins;
+      opacity: 1;
+      max-height: 500px;
+      min-width: 40%;
+      animation: listDropdown 1.7s forwards;
+      transition: opacity 2s;
+      position: absolute;
+      z-index: 1;
+    }
+    @keyframes listDropdown {
+      0% {
+        opacity: 0.8;
+        max-height: 0;
+      }
+      100% {
+        opacity: 1;
+        max-height: 500px;
+      }
+    }
+  }
+}
