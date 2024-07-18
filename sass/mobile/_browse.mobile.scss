@@ -42,7 +42,50 @@
     }
   }
 }
+@media (max-width: 393px) {
+  .browse-categories {
+    padding: 40px 30px;
+    .browse {
+      font-size: 28px;
+    }
+    .category-cards {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+      align-self: stretch;
+      flex-shrink: 0;
+      gap: 30px;
+      .card {
+        max-width: 140px;
+        display: flex;
+        flex-direction: column;
 
+        .img-browse {
+          display: flex;
+          position: relative;
+
+          .browse-bg {
+            max-width: 140px;
+          }
+          .browse-icon {
+            width: 80px;
+            height: 80px;
+          }
+        }
+
+        .browse-text {
+          width: 100%;
+          flex-grow: 1;
+
+          .text {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
 @media (max-width: 375px) {
   .browse-categories {
     padding: 40px 30px;
