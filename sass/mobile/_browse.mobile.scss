@@ -11,9 +11,9 @@
       justify-content: center;
       align-self: stretch;
       flex-shrink: 0;
-      gap: 20px;
+      gap: 30px;
       .card {
-        max-width: 150px;
+        max-width: 155px;
         display: flex;
         flex-direction: column;
 
@@ -22,7 +22,7 @@
           position: relative;
 
           .browse-bg {
-            max-width: 150px;
+            max-width: 155px;
           }
           .browse-icon {
             width: 80px;

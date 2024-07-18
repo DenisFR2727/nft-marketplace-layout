@@ -1,3 +1,23 @@
+@media (max-width: 926px) {
+  .nav-menu {
+    width: 100%;
+    max-width: 926px;
+    nav {
+      padding: 15px 50px;
+
+      ul {
+        display: none;
+      }
+      .burger-menu {
+        display: flex;
+      }
+      #toggle {
+        display: none;
+      }
+    }
+  }
+}
+
 @media (max-width: 834px) {
   .nav-menu {
     width: 100%;

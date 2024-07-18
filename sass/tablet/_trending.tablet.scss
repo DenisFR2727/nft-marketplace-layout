@@ -1,3 +1,24 @@
+@media (max-width: 926px) {
+  .trending-collection {
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-bottom: 40px;
+
+    .trading-text {
+      width: 100%;
+    }
+    .collection-card {
+      display: flex;
+      width: 690px;
+      align-items: flex-start;
+      gap: 30px;
+
+      .tablet-card-hidden {
+        display: none;
+      }
+    }
+  }
+}
 @media (max-width: 834px) {
   .trending-collection {
     padding-left: 72px;
