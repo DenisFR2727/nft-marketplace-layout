@@ -28,7 +28,8 @@
   .collection-card {
     margin-top: 60px;
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
+    // justify-content: space-between;
     .card {
       .collection {
         display: flex;
@@ -78,8 +79,6 @@
           display: flex;
           padding-top: 10px;
 
-          img {
-          }
           p {
             padding-left: 12px;
             flex: 1 0 0;

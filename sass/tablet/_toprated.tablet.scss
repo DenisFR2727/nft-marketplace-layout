@@ -1,0 +1,198 @@
+@media (max-width: 834px) {
+  .top-rated-artists {
+    padding: 40px 72px;
+    .top-rated-content {
+      padding: 0;
+      .top-rated-text {
+        display: flex;
+        max-width: 690px;
+        align-items: flex-end;
+        gap: 100px;
+        .text {
+          .text-top {
+            font-size: 28px;
+          }
+          .checkout-text {
+            width: 100%;
+            max-width: 343px;
+            font-size: 16px;
+          }
+        }
+        .btn-view-rankings {
+          display: flex;
+          height: 60px;
+          padding: 0px 50px;
+          justify-content: center;
+          align-items: center;
+          gap: 12px;
+        }
+      }
+      .cards-artists {
+        margin-top: 40px;
+        display: flex;
+        // width: 100%;
+        max-width: 690px;
+        align-items: flex-start;
+        gap: 30px;
+        align-self: stretch;
+        .card {
+          .card-content {
+            display: flex;
+            align-items: center;
+            .number-and-img {
+              img {
+                margin: 0;
+                width: 60px;
+                height: 60px;
+              }
+            }
+          }
+          .text-name-price {
+            margin-top: 0;
+            margin-left: 20px;
+            width: 210px;
+
+            .text-name {
+              text-align: start;
+            }
+            .text-price {
+              justify-content: flex-start;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 800px) {
+  .top-rated-artists {
+    padding: 40px 72px;
+    .top-rated-content {
+      padding: 0;
+      .top-rated-text {
+        width: 100%;
+        gap: 0px;
+        .text {
+          .text-top {
+            font-size: 28px;
+          }
+          .checkout-text {
+            width: 100%;
+          }
+        }
+        .btn-view-rankings {
+          height: 60px;
+          padding: 0px 50px;
+        }
+      }
+      .cards-artists {
+        width: 100%;
+        gap: 30px;
+        justify-content: space-between;
+        .card {
+          .card-content {
+            display: flex;
+            align-items: center;
+            .number-and-img {
+              img {
+                margin: 0;
+                width: 50px;
+                height: 50px;
+              }
+            }
+          }
+          .text-name-price {
+            margin-top: 0;
+            margin-left: 20px;
+            width: 100%;
+
+            .text-name {
+              text-align: start;
+            }
+            .text-price {
+              justify-content: flex-start;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 740px) {
+  .top-rated-artists {
+    padding: 40px 72px;
+    .top-rated-content {
+      padding: 0;
+      .top-rated-text {
+        display: block;
+        width: 100%;
+        gap: 0px;
+        .text {
+          .text-top {
+            font-size: 28px;
+          }
+          .checkout-text {
+            width: 100%;
+          }
+        }
+        .btn-view-rankings {
+          margin-top: 20px;
+        }
+      }
+      .cards-artists {
+        .card {
+          max-width: 270px;
+          .text-name-price {
+            .text-price {
+              display: ruby-base;
+              p {
+                text-align: start;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 715px) {
+  .top-rated-artists {
+    padding: 40px 72px;
+    .top-rated-content {
+      padding: 0;
+      .top-rated-text {
+        display: block;
+        width: 100%;
+        gap: 0px;
+        .text {
+          .text-top {
+            font-size: 28px;
+          }
+          .checkout-text {
+            width: 100%;
+          }
+        }
+        .btn-view-rankings {
+          margin-top: 20px;
+        }
+      }
+      .cards-artists {
+        .card {
+          width: 100%;
+          max-width: none;
+          .card-content {
+            width: 100%;
+            .text-name-price {
+              .text-price {
+                display: ruby-base;
+                p {
+                  text-align: start;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

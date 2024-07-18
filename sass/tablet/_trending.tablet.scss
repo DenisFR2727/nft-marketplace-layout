@@ -6,10 +6,6 @@
 
     .trading-text {
       width: 100%;
-      .text-lg {
-      }
-      .text-sm {
-      }
     }
     .collection-card {
       display: flex;
@@ -20,30 +16,6 @@
       .tablet-card-hidden {
         display: none;
       }
-      .card {
-        .fhoto-nft {
-          img {
-          }
-        }
-        .collection {
-          .nft {
-          }
-          .counter-nft {
-            .num {
-            }
-          }
-        }
-        .collection-name {
-          .nft-names {
-          }
-          .avatar {
-            img {
-            }
-            p {
-            }
-          }
-        }
-      }
     }
   }
 }
@@ -52,52 +24,24 @@
     padding-left: 72px;
     padding-right: 72px;
     padding-bottom: 40px;
-    // display: flex;
 
     .trading-text {
       width: 100%;
-      .text-lg {
-      }
-      .text-sm {
-      }
+      padding-top: 0;
     }
     .collection-card {
       display: flex;
-      flex-direction: column;
       justify-content: center;
       flex-wrap: wrap;
       align-items: flex-start;
       gap: 30px;
       width: 100%;
+      margin-top: 20px;
       .mobile-card-hidden {
         display: none;
       }
       .tablet-card-hidden {
         display: none;
-      }
-      .card {
-        .fhoto-nft {
-          img {
-          }
-        }
-        .collection {
-          .nft {
-          }
-          .counter-nft {
-            .num {
-            }
-          }
-        }
-        .collection-name {
-          .nft-names {
-          }
-          .avatar {
-            img {
-            }
-            p {
-            }
-          }
-        }
       }
     }
   }

@@ -13,13 +13,19 @@
 @import "_nav.scss";
 @import "_header.scss";
 @import "_trending-collection.scss";
+@import "_toprated.scss";
+@import "./browse.scss";
 
 // tablet
 @import "./tablet/nav.tablet";
 @import "./tablet/_header.tablet.scss";
 @import "./tablet/trending.tablet";
+@import "./tablet/toprated.tablet";
+@import "./tablet/browse.tablet";
 
 // mobile
 @import "./mobile/nav.mobile";
 @import "./mobile/header.mobile";
 @import "./mobile/trending.mobile";
+@import "./mobile/toprated.mobile";
+@import "./mobile/browse.mobile";

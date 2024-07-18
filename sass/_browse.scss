@@ -1,0 +1,60 @@
+.browse-categories {
+  padding: 80px 115px;
+  .browse {
+    color: var(--White, #fff);
+    font-family: "Work Sans";
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 45.6px */
+    text-transform: capitalize;
+  }
+  .category-cards {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+
+    .card {
+      max-width: 240px;
+      .img-browse {
+        display: flex;
+        position: relative;
+
+        .browse-bg {
+          border-radius: 20px 20px 0px 0px;
+          background: rgba(255, 255, 255, 0.1);
+          filter: blur(7px);
+        }
+        .browse-icon {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+      .browse-text {
+        width: 100%;
+        display: flex;
+        padding: 20px 30px 25px 30px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 25px;
+        align-self: stretch;
+        border-radius: 0 0 20px 20px;
+        background: #3b3b3b;
+        .text {
+          color: var(--White, #fff);
+          font-family: "Work Sans";
+          font-size: 22px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 140%; /* 30.8px */
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+}
