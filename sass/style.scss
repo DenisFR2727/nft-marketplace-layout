@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -15,6 +17,7 @@
 @import "_trending-collection.scss";
 @import "_toprated.scss";
 @import "./browse.scss";
+@import "./discover-nfts.scss";
 
 // tablet
 @import "./tablet/nav.tablet";
@@ -22,6 +25,7 @@
 @import "./tablet/trending.tablet";
 @import "./tablet/toprated.tablet";
 @import "./tablet/browse.tablet";
+@import "./tablet/discover.tablet";
 
 // mobile
 @import "./mobile/nav.mobile";
@@ -29,3 +33,4 @@
 @import "./mobile/trending.mobile";
 @import "./mobile/toprated.mobile";
 @import "./mobile/browse.mobile";
+@import "./mobile/discover.mobile";

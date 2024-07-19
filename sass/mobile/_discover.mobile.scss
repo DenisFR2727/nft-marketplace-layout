@@ -1,0 +1,87 @@
+@media (max-width: 375px) {
+  .discover-more-nfts {
+    padding: 40px 30px;
+
+    .discover-content {
+      .discover-text {
+        width: 100%;
+
+        .text {
+          max-width: 315px;
+          .text-top {
+            font-size: 28px;
+          }
+          .text-bottom {
+            font-size: 16px;
+          }
+        }
+        .btn-see-hidden {
+          display: none;
+        }
+      }
+      .nft-cards {
+        // width: 100%;
+        display: flex;
+        max-width: 690px;
+        align-items: flex-start;
+        gap: 30px;
+
+        .card-nft-hidden {
+          display: block;
+        }
+        .card {
+          .nft {
+            display: flex;
+            img {
+            }
+          }
+          .nft-info {
+            padding: 20px 30px 25px 30px;
+            background-color: #3b3b3b;
+            border-radius: 0 0 20px 20px;
+
+            .info-content {
+              color: var(--White, #fff);
+              font-style: normal;
+              .text {
+              }
+              .artist-name {
+                display: flex;
+                align-items: center;
+                margin-bottom: 25px;
+                padding-top: 5px;
+                img {
+                }
+                .name {
+                }
+              }
+              .price {
+                font-weight: 400;
+                font-family: "Space Mono";
+                .price-text {
+                }
+                .price-crypto {
+                }
+              }
+            }
+          }
+        }
+        .btn-see-mobile {
+          width: 100%;
+          max-width: 315px;
+          display: flex;
+          color: #fff;
+          height: 60px;
+          font-family: "Work Sans";
+          padding: 0px 50px;
+          justify-content: center;
+          align-items: center;
+          gap: 12px;
+          flex: 1 0 0;
+          border-radius: 20px;
+          border: 2px solid var(--Call-to-Action, #a259ff);
+        }
+      }
+    }
+  }
+}

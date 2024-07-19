@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
@@ -431,6 +432,7 @@ header .header-content .header-right-block .space-walking .space-walking-content
 .top-rated-artists .top-rated-content .cards-artists .card .card-content .number-and-img .number-card {
   position: absolute;
   width: 30px;
+  height: 30px;
   background: var(--Background, #2b2b2b);
   text-align: center;
   /* Base (Body) - Space Mono */
@@ -443,6 +445,10 @@ header .header-content .header-right-block .space-walking .space-walking-content
 }
 .top-rated-artists .top-rated-content .cards-artists .card .card-content .number-and-img .number-card span {
   display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   padding: 4px 10px;
   color: var(--caption-label-text, #858584);
 }
@@ -552,6 +558,114 @@ header .header-content .header-right-block .space-walking .space-walking-content
   font-weight: 600;
   line-height: 140%; /* 30.8px */
   text-transform: capitalize;
+}
+
+.discover-more-nfts {
+  padding: 80px 115px;
+}
+.discover-more-nfts .discover-content .discover-text {
+  width: 100%;
+  display: flex;
+  max-width: 1050px;
+  align-items: flex-end;
+  gap: 100px;
+  justify-content: space-between;
+}
+.discover-more-nfts .discover-content .discover-text .text {
+  color: var(--White, #fff);
+  font-family: "Work Sans";
+  text-transform: capitalize;
+  font-style: normal;
+}
+.discover-more-nfts .discover-content .discover-text .text .text-top {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 120%; /* 45.6px */
+}
+.discover-more-nfts .discover-content .discover-text .text .text-bottom {
+  color: var(--White, #fff);
+  font-family: "Work Sans";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 160%; /* 35.2px */
+}
+.discover-more-nfts .discover-content .discover-text .btn-see-all {
+  display: flex;
+  height: 60px;
+  padding: 0px 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  color: #fff;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  border-radius: 20px;
+  border: 2px solid var(--Call-to-Action, #a259ff);
+  user-select: none;
+  cursor: pointer;
+}
+.discover-more-nfts .discover-content .nft-cards {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  max-width: 1050px;
+  align-items: flex-start;
+  margin-top: 60px;
+  padding-bottom: 80px;
+  gap: 30px;
+}
+.discover-more-nfts .discover-content .nft-cards .card .nft {
+  display: flex;
+}
+.discover-more-nfts .discover-content .nft-cards .card .nft-info {
+  padding: 20px 30px 25px 30px;
+  background-color: #3b3b3b;
+  border-radius: 0 0 20px 20px;
+}
+.discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content {
+  color: var(--White, #fff);
+  font-style: normal;
+}
+.discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content .text {
+  font-family: "Work Sans";
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 140%; /* 30.8px */
+  text-transform: capitalize;
+}
+.discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content .artist-name {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  padding-top: 5px;
+}
+.discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content .artist-name .name {
+  margin-left: 12px;
+  font-family: "Space Mono";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+}
+.discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content .price {
+  font-weight: 400;
+  font-family: "Space Mono";
+}
+.discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content .price .price-text {
+  display: flex;
+  justify-content: space-between;
+  color: #858584;
+  font-size: 12px;
+  line-height: 110%;
+}
+.discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content .price .price-crypto {
+  display: flex;
+  margin-top: 8px;
+  justify-content: space-between;
+  font-size: 16px;
+  line-height: 140%;
 }
 
 @media (max-width: 926px) {
@@ -1165,6 +1279,149 @@ header .header-content .header-right-block .space-walking .space-walking-content
     font-size: 16px;
   }
 }
+@media (max-width: 926px) {
+  .discover-more-nfts {
+    padding: 40px 72px;
+  }
+  .discover-more-nfts .discover-content .discover-text {
+    width: 100%;
+    max-width: 690px;
+  }
+  .discover-more-nfts .discover-content .discover-text .text .text-top {
+    font-size: 28px;
+  }
+  .discover-more-nfts .discover-content .discover-text .text .text-bottom {
+    font-size: 16px;
+  }
+  .discover-more-nfts .discover-content .nft-cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 690px;
+    gap: 30px;
+  }
+  .discover-more-nfts .discover-content .nft-cards .card .nft {
+    display: flex;
+  }
+  .discover-more-nfts .discover-content .nft-cards .card .nft-info {
+    padding: 20px 30px 25px 30px;
+    background-color: #3b3b3b;
+    border-radius: 0 0 20px 20px;
+  }
+  .discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content {
+    color: var(--White, #fff);
+    font-style: normal;
+  }
+  .discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content .artist-name {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    padding-top: 5px;
+  }
+  .discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content .price {
+    font-weight: 400;
+    font-family: "Space Mono";
+  }
+}
+@media (max-width: 834px) {
+  .discover-more-nfts {
+    padding: 40px 72px;
+  }
+  .discover-more-nfts .discover-content .discover-text .text .text-top {
+    font-size: 28px;
+  }
+  .discover-more-nfts .discover-content .discover-text .text .text-bottom {
+    font-size: 16px;
+  }
+  .discover-more-nfts .discover-content .nft-cards {
+    display: flex;
+    max-width: 690px;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  .discover-more-nfts .discover-content .nft-cards .card-nft-hidden {
+    display: none;
+  }
+  .discover-more-nfts .discover-content .nft-cards .card .nft {
+    display: flex;
+  }
+  .discover-more-nfts .discover-content .nft-cards .card .nft-info {
+    padding: 20px 30px 25px 30px;
+    background-color: #3b3b3b;
+    border-radius: 0 0 20px 20px;
+  }
+  .discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content {
+    color: var(--White, #fff);
+    font-style: normal;
+  }
+  .discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content .artist-name {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    padding-top: 5px;
+  }
+  .discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content .price {
+    font-weight: 400;
+    font-family: "Space Mono";
+  }
+}
+@media (max-width: 800px) {
+  .discover-more-nfts {
+    padding: 40px 72px;
+  }
+  .discover-more-nfts .discover-content .discover-text {
+    display: block;
+    flex-direction: column;
+  }
+  .discover-more-nfts .discover-content .discover-text .text .text-top {
+    font-size: 28px;
+  }
+  .discover-more-nfts .discover-content .discover-text .text .text-bottom {
+    padding-top: 0px;
+    font-size: 16px;
+  }
+  .discover-more-nfts .discover-content .discover-text .btn-see-all {
+    margin-top: 20px;
+    max-width: 250px;
+  }
+  .discover-more-nfts .discover-content .nft-cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 690px;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  .discover-more-nfts .discover-content .nft-cards .card-nft-hidden {
+    display: none;
+  }
+  .discover-more-nfts .discover-content .nft-cards .card .nft {
+    display: flex;
+  }
+  .discover-more-nfts .discover-content .nft-cards .card .nft img {
+    max-width: 315px;
+  }
+  .discover-more-nfts .discover-content .nft-cards .card .nft-info {
+    padding: 20px 30px 25px 30px;
+    background-color: #3b3b3b;
+    border-radius: 0 0 20px 20px;
+  }
+  .discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content {
+    color: var(--White, #fff);
+    font-style: normal;
+  }
+  .discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content .artist-name {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    padding-top: 5px;
+  }
+  .discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content .price {
+    font-weight: 400;
+    font-family: "Space Mono";
+  }
+}
 @media (max-width: 430px) {
   .nav-menu {
     width: 100%;
@@ -1703,6 +1960,72 @@ header .header-content .header-right-block .space-walking .space-walking-content
   }
   .browse-categories .category-cards .card .browse-text .text {
     font-size: 14px;
+  }
+}
+@media (max-width: 375px) {
+  .discover-more-nfts {
+    padding: 40px 30px;
+  }
+  .discover-more-nfts .discover-content .discover-text {
+    width: 100%;
+  }
+  .discover-more-nfts .discover-content .discover-text .text {
+    max-width: 315px;
+  }
+  .discover-more-nfts .discover-content .discover-text .text .text-top {
+    font-size: 28px;
+  }
+  .discover-more-nfts .discover-content .discover-text .text .text-bottom {
+    font-size: 16px;
+  }
+  .discover-more-nfts .discover-content .discover-text .btn-see-hidden {
+    display: none;
+  }
+  .discover-more-nfts .discover-content .nft-cards {
+    display: flex;
+    max-width: 690px;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  .discover-more-nfts .discover-content .nft-cards .card-nft-hidden {
+    display: block;
+  }
+  .discover-more-nfts .discover-content .nft-cards .card .nft {
+    display: flex;
+  }
+  .discover-more-nfts .discover-content .nft-cards .card .nft-info {
+    padding: 20px 30px 25px 30px;
+    background-color: #3b3b3b;
+    border-radius: 0 0 20px 20px;
+  }
+  .discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content {
+    color: var(--White, #fff);
+    font-style: normal;
+  }
+  .discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content .artist-name {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    padding-top: 5px;
+  }
+  .discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content .price {
+    font-weight: 400;
+    font-family: "Space Mono";
+  }
+  .discover-more-nfts .discover-content .nft-cards .btn-see-mobile {
+    width: 100%;
+    max-width: 315px;
+    display: flex;
+    color: #fff;
+    height: 60px;
+    font-family: "Work Sans";
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex: 1 0 0;
+    border-radius: 20px;
+    border: 2px solid var(--Call-to-Action, #a259ff);
   }
 }
 

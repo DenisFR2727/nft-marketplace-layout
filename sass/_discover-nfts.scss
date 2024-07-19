@@ -1,0 +1,120 @@
+.discover-more-nfts {
+  padding: 80px 115px;
+
+  .discover-content {
+    .discover-text {
+      width: 100%;
+      display: flex;
+      max-width: 1050px;
+      align-items: flex-end;
+      gap: 100px;
+      justify-content: space-between;
+
+      .text {
+        color: var(--White, #fff);
+        font-family: "Work Sans";
+        text-transform: capitalize;
+        font-style: normal;
+        .text-top {
+          font-size: 38px;
+          font-weight: 600;
+          line-height: 120%; /* 45.6px */
+        }
+        .text-bottom {
+          color: var(--White, #fff);
+          font-family: "Work Sans";
+          font-size: 22px;
+          font-weight: 400;
+          line-height: 160%; /* 35.2px */
+        }
+      }
+      .btn-see-all {
+        display: flex;
+
+        height: 60px;
+        padding: 0px 50px;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        color: #fff;
+        text-align: center;
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 140%;
+        border-radius: 20px;
+        border: 2px solid var(--Call-to-Action, #a259ff);
+        user-select: none;
+        cursor: pointer;
+      }
+    }
+    .nft-cards {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      max-width: 1050px;
+      align-items: flex-start;
+      margin-top: 60px;
+      padding-bottom: 80px;
+      gap: 30px;
+
+      .card {
+        .nft {
+          display: flex;
+          img {
+          }
+        }
+        .nft-info {
+          padding: 20px 30px 25px 30px;
+          background-color: #3b3b3b;
+          border-radius: 0 0 20px 20px;
+
+          .info-content {
+            color: var(--White, #fff);
+            font-style: normal;
+            .text {
+              font-family: "Work Sans";
+              font-size: 22px;
+              font-weight: 600;
+              line-height: 140%; /* 30.8px */
+              text-transform: capitalize;
+            }
+            .artist-name {
+              display: flex;
+              align-items: center;
+              margin-bottom: 25px;
+              padding-top: 5px;
+              img {
+              }
+              .name {
+                margin-left: 12px;
+                font-family: "Space Mono";
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 140%;
+              }
+            }
+            .price {
+              font-weight: 400;
+              font-family: "Space Mono";
+              .price-text {
+                display: flex;
+                justify-content: space-between;
+                color: #858584;
+                font-size: 12px;
+                line-height: 110%;
+              }
+              .price-crypto {
+                display: flex;
+                margin-top: 8px;
+                justify-content: space-between;
+                font-size: 16px;
+                line-height: 140%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

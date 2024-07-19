@@ -1,0 +1,203 @@
+@media (max-width: 926px) {
+  .discover-more-nfts {
+    padding: 40px 72px;
+
+    .discover-content {
+      .discover-text {
+        width: 100%;
+        max-width: 690px;
+        .text {
+          .text-top {
+            font-size: 28px;
+          }
+          .text-bottom {
+            font-size: 16px;
+          }
+        }
+        .btn-see-all {
+        }
+      }
+      .nft-cards {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 690px;
+        gap: 30px;
+
+        .card {
+          .nft {
+            display: flex;
+            img {
+            }
+          }
+          .nft-info {
+            padding: 20px 30px 25px 30px;
+            background-color: #3b3b3b;
+            border-radius: 0 0 20px 20px;
+
+            .info-content {
+              color: var(--White, #fff);
+              font-style: normal;
+              .text {
+              }
+              .artist-name {
+                display: flex;
+                align-items: center;
+                margin-bottom: 25px;
+                padding-top: 5px;
+                img {
+                }
+                .name {
+                }
+              }
+              .price {
+                font-weight: 400;
+                font-family: "Space Mono";
+                .price-text {
+                }
+                .price-crypto {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 834px) {
+  .discover-more-nfts {
+    padding: 40px 72px;
+
+    .discover-content {
+      .discover-text {
+        .text {
+          .text-top {
+            font-size: 28px;
+          }
+          .text-bottom {
+            font-size: 16px;
+          }
+        }
+        .btn-see-all {
+        }
+      }
+      .nft-cards {
+        // width: 100%;
+        display: flex;
+        max-width: 690px;
+        align-items: flex-start;
+        gap: 30px;
+
+        .card-nft-hidden {
+          display: none;
+        }
+        .card {
+          .nft {
+            display: flex;
+            img {
+            }
+          }
+          .nft-info {
+            padding: 20px 30px 25px 30px;
+            background-color: #3b3b3b;
+            border-radius: 0 0 20px 20px;
+
+            .info-content {
+              color: var(--White, #fff);
+              font-style: normal;
+              .text {
+              }
+              .artist-name {
+                display: flex;
+                align-items: center;
+                margin-bottom: 25px;
+                padding-top: 5px;
+                img {
+                }
+                .name {
+                }
+              }
+              .price {
+                font-weight: 400;
+                font-family: "Space Mono";
+                .price-text {
+                }
+                .price-crypto {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 800px) {
+  .discover-more-nfts {
+    padding: 40px 72px;
+
+    .discover-content {
+      .discover-text {
+        display: block;
+        flex-direction: column;
+        .text {
+          .text-top {
+            font-size: 28px;
+          }
+          .text-bottom {
+            padding-top: 0px;
+            font-size: 16px;
+          }
+        }
+        .btn-see-all {
+          margin-top: 20px;
+          max-width: 250px;
+        }
+      }
+      .nft-cards {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        max-width: 690px;
+        align-items: flex-start;
+        gap: 30px;
+
+        .card-nft-hidden {
+          display: none;
+        }
+        .card {
+          .nft {
+            display: flex;
+            img {
+              max-width: 315px;
+            }
+          }
+          .nft-info {
+            padding: 20px 30px 25px 30px;
+            background-color: #3b3b3b;
+            border-radius: 0 0 20px 20px;
+
+            .info-content {
+              color: var(--White, #fff);
+              font-style: normal;
+
+              .artist-name {
+                display: flex;
+                align-items: center;
+                margin-bottom: 25px;
+                padding-top: 5px;
+              }
+              .price {
+                font-weight: 400;
+                font-family: "Space Mono";
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
