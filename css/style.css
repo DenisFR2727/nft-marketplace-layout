@@ -1962,6 +1962,80 @@ header .header-content .header-right-block .space-walking .space-walking-content
     font-size: 14px;
   }
 }
+@media (max-width: 430px) {
+  .discover-more-nfts {
+    padding: 40px 30px;
+  }
+  .discover-more-nfts .discover-content .discover-text {
+    width: 100%;
+  }
+  .discover-more-nfts .discover-content .discover-text .text {
+    max-width: 315px;
+  }
+  .discover-more-nfts .discover-content .discover-text .text .text-top {
+    font-size: 28px;
+  }
+  .discover-more-nfts .discover-content .discover-text .text .text-bottom {
+    font-size: 16px;
+  }
+  .discover-more-nfts .discover-content .discover-text .btn-see-hidden {
+    display: none;
+  }
+  .discover-more-nfts .discover-content .nft-cards {
+    display: flex;
+    max-width: 690px;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  .discover-more-nfts .discover-content .nft-cards .card-nft-hidden {
+    width: 100%;
+    display: block;
+  }
+  .discover-more-nfts .discover-content .nft-cards .card {
+    width: 100%;
+  }
+  .discover-more-nfts .discover-content .nft-cards .card .nft {
+    display: flex;
+  }
+  .discover-more-nfts .discover-content .nft-cards .card .nft img {
+    width: 100%;
+    max-width: 368px;
+  }
+  .discover-more-nfts .discover-content .nft-cards .card .nft-info {
+    padding: 20px 30px 25px 30px;
+    background-color: #3b3b3b;
+    border-radius: 0 0 20px 20px;
+  }
+  .discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content {
+    color: var(--White, #fff);
+    font-style: normal;
+  }
+  .discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content .artist-name {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    padding-top: 5px;
+  }
+  .discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content .price {
+    font-weight: 400;
+    font-family: "Space Mono";
+  }
+  .discover-more-nfts .discover-content .nft-cards .btn-see-mobile {
+    width: 100%;
+    max-width: 368px;
+    display: flex;
+    color: #fff;
+    height: 60px;
+    font-family: "Work Sans";
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex: 1 0 0;
+    border-radius: 20px;
+    border: 2px solid var(--Call-to-Action, #a259ff);
+  }
+}
 @media (max-width: 375px) {
   .discover-more-nfts {
     padding: 40px 30px;
