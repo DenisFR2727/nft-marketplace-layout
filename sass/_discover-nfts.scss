@@ -28,9 +28,9 @@
           line-height: 160%; /* 35.2px */
         }
       }
+
       .btn-see-all {
         display: flex;
-
         height: 60px;
         padding: 0px 50px;
         justify-content: center;
@@ -115,6 +115,10 @@
           }
         }
       }
+    }
+    .btn-see {
+      display: none;
+      max-width: 250px;
     }
   }
 }

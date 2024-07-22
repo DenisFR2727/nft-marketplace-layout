@@ -20,11 +20,11 @@
         }
       }
       .nft-cards {
-        // width: 100%;
         display: flex;
         max-width: 690px;
         align-items: flex-start;
         gap: 30px;
+        padding-bottom: 40px;
 
         .card-nft-hidden {
           width: 100%;
@@ -47,25 +47,16 @@
             .info-content {
               color: var(--White, #fff);
               font-style: normal;
-              .text {
-              }
+
               .artist-name {
                 display: flex;
                 align-items: center;
                 margin-bottom: 25px;
                 padding-top: 5px;
-                img {
-                }
-                .name {
-                }
               }
               .price {
                 font-weight: 400;
                 font-family: "Space Mono";
-                .price-text {
-                }
-                .price-crypto {
-                }
               }
             }
           }
@@ -85,6 +76,10 @@
           border-radius: 20px;
           border: 2px solid var(--Call-to-Action, #a259ff);
         }
+      }
+      .btn-see {
+        max-width: 100%;
+        margin-bottom: 60px;
       }
     }
   }
@@ -123,8 +118,6 @@
         .card {
           .nft {
             display: flex;
-            img {
-            }
           }
           .nft-info {
             padding: 20px 30px 25px 30px;
@@ -134,25 +127,16 @@
             .info-content {
               color: var(--White, #fff);
               font-style: normal;
-              .text {
-              }
+
               .artist-name {
                 display: flex;
                 align-items: center;
                 margin-bottom: 25px;
                 padding-top: 5px;
-                img {
-                }
-                .name {
-                }
               }
               .price {
                 font-weight: 400;
                 font-family: "Space Mono";
-                .price-text {
-                }
-                .price-crypto {
-                }
               }
             }
           }
@@ -171,6 +155,8 @@
           flex: 1 0 0;
           border-radius: 20px;
           border: 2px solid var(--Call-to-Action, #a259ff);
+          cursor: pointer;
+          user-select: none;
         }
       }
     }

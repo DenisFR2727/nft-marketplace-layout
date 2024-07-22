@@ -15,6 +15,7 @@
           }
         }
         .btn-see-all {
+          display: none;
         }
       }
       .nft-cards {
@@ -62,6 +63,25 @@
             }
           }
         }
+      }
+      .btn-see {
+        margin: 0 auto;
+        display: flex;
+        height: 60px;
+        padding: 0px 50px;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        color: #fff;
+        text-align: center;
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 140%;
+        border-radius: 20px;
+        border: 2px solid var(--Call-to-Action, #a259ff);
+        user-select: none;
+        cursor: pointer;
       }
     }
   }
