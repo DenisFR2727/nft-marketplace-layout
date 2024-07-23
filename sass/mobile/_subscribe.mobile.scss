@@ -3,7 +3,6 @@
     padding: 40px 30px;
 
     .subscribe {
-      display: flex;
       flex-direction: column;
       align-items: center;
       gap: 30px;
@@ -21,6 +20,7 @@
       .subscribe-join {
         max-width: inherit;
         .text {
+          margin-top: 20px;
           .text-top {
             font-size: 28px;
           }
