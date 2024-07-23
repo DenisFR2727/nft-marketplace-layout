@@ -614,7 +614,6 @@ header .header-content .header-right-block .space-walking .space-walking-content
   max-width: 1050px;
   align-items: flex-start;
   margin-top: 60px;
-  padding-bottom: 80px;
   gap: 30px;
 }
 .discover-more-nfts .discover-content .nft-cards .card .nft {
@@ -666,6 +665,156 @@ header .header-content .header-right-block .space-walking .space-walking-content
   justify-content: space-between;
   font-size: 16px;
   line-height: 140%;
+}
+.discover-more-nfts .discover-content .btn-see {
+  display: none;
+  max-width: 250px;
+}
+
+.how-it-works {
+  padding: 0px 115px;
+}
+.how-it-works .text-works {
+  color: var(--White, #fff);
+  text-transform: capitalize;
+  font-style: normal;
+}
+.how-it-works .text-works .text-up {
+  font-family: "Work Sans";
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 120%; /* 45.6px */
+}
+.how-it-works .text-works .text-bottom {
+  font-family: "Work Sans";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 160%; /* 35.2px */
+}
+.how-it-works .info-card {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 48px;
+  padding-bottom: 80px;
+}
+.how-it-works .info-card .card {
+  border-radius: 20px;
+  background: var(--Background---Secondary, #3b3b3b);
+  align-self: stretch;
+}
+.how-it-works .info-card .card .card-content {
+  display: flex;
+  width: 330px;
+  padding: 10px 30px 30px 30px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.how-it-works .info-card .card .card-content .info .text-bottom {
+  text-transform: lowercase;
+}
+.how-it-works .info-card .card .card-content .info .text-bottom span {
+  text-transform: uppercase;
+}
+.how-it-works .info-card .card .card-content .info .text-bottom::first-letter {
+  text-transform: uppercase;
+}
+.how-it-works .info-card .card .card-content .info {
+  color: var(--White, #fff);
+  text-transform: capitalize;
+  font-style: normal;
+  font-family: "Work Sans";
+}
+.how-it-works .info-card .card .card-content .info .text-top {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 140%; /* 30.8px */
+}
+.how-it-works .info-card .card .card-content .info .text-bottom {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.subscribe-widget {
+  padding: 40px 115px 80px 115px;
+}
+.subscribe-widget .subscribe {
+  display: flex;
+  width: 1050px;
+  padding: 60px;
+  align-items: center;
+  gap: 80px;
+  border-radius: 20px;
+  background: #3b3b3b;
+  flex-wrap: wrap;
+}
+.subscribe-widget .subscribe .subscribe-join {
+  width: 100%;
+  max-width: 425px;
+}
+.subscribe-widget .subscribe .subscribe-join .text {
+  color: var(--White, #fff);
+  font-family: "Work Sans";
+  font-style: normal;
+  text-transform: capitalize;
+}
+.subscribe-widget .subscribe .subscribe-join .text .text-top {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 120%;
+}
+.subscribe-widget .subscribe .subscribe-join .text .text-bottom {
+  font-size: 22px;
+  margin-top: 10px;
+}
+.subscribe-widget .subscribe .subscribe-join .subscribe-form {
+  margin-top: 40px;
+  display: flex;
+  background-color: #fff;
+  border-radius: 20px;
+  position: relative;
+}
+.subscribe-widget .subscribe .subscribe-join .subscribe-form input {
+  display: flex;
+  height: 60px;
+  padding: 16px 0px 16px 20px;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+  border-radius: 20px;
+  background: var(--Text, #fff);
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  border: none;
+  color: var(--Background, #2b2b2b);
+}
+.subscribe-widget .subscribe .subscribe-join .subscribe-form .subscribe-btn {
+  position: absolute;
+  right: 0;
+  color: #fff;
+  display: flex;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  height: 60px;
+  padding: 0px 50px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  border-radius: 20px;
+  background: var(--Call-to-Action, #a259ff);
+  cursor: pointer;
+  user-select: none;
 }
 
 @media (max-width: 926px) {
@@ -1293,6 +1442,9 @@ header .header-content .header-right-block .space-walking .space-walking-content
   .discover-more-nfts .discover-content .discover-text .text .text-bottom {
     font-size: 16px;
   }
+  .discover-more-nfts .discover-content .discover-text .btn-see-all {
+    display: none;
+  }
   .discover-more-nfts .discover-content .nft-cards {
     width: 100%;
     display: flex;
@@ -1322,6 +1474,26 @@ header .header-content .header-right-block .space-walking .space-walking-content
   .discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content .price {
     font-weight: 400;
     font-family: "Space Mono";
+  }
+  .discover-more-nfts .discover-content .btn-see {
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    height: 60px;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    color: #fff;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+    border-radius: 20px;
+    border: 2px solid var(--Call-to-Action, #a259ff);
+    user-select: none;
+    cursor: pointer;
   }
 }
 @media (max-width: 834px) {
@@ -1420,6 +1592,331 @@ header .header-content .header-right-block .space-walking .space-walking-content
   .discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content .price {
     font-weight: 400;
     font-family: "Space Mono";
+  }
+}
+@media (max-width: 926px) {
+  .how-it-works {
+    padding: 40px 72px;
+  }
+  .how-it-works .text-works .text-up {
+    font-size: 28px;
+  }
+  .how-it-works .text-works .text-bottom {
+    font-size: 16px;
+  }
+  .how-it-works .info-card {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    width: 690px;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  .how-it-works .info-card .card {
+    width: 100%;
+    max-width: 210px;
+    border-radius: 20px;
+    background: var(--Background---Secondary, #3b3b3b);
+    align-self: stretch;
+  }
+  .how-it-works .info-card .card .card-content {
+    width: 100%;
+    display: flex;
+    padding: 10px 20px 30px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    flex: 1 0 0;
+    align-self: stretch;
+  }
+  .how-it-works .info-card .card .card-content .cicle svg {
+    max-width: 133px;
+  }
+  .how-it-works .info-card .card .card-content .info .text-top {
+    font-size: 16px;
+  }
+  .how-it-works .info-card .card .card-content .info .text-bottom {
+    font-size: 12px;
+  }
+}
+@media (max-width: 834px) {
+  .how-it-works {
+    padding: 40px 72px;
+  }
+  .how-it-works .text-works .text-up {
+    font-size: 28px;
+  }
+  .how-it-works .text-works .text-bottom {
+    font-size: 16px;
+  }
+  .how-it-works .info-card {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    width: 690px;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  .how-it-works .info-card .card {
+    width: 100%;
+    max-width: 210px;
+    border-radius: 20px;
+    background: var(--Background---Secondary, #3b3b3b);
+    align-self: stretch;
+  }
+  .how-it-works .info-card .card .card-content {
+    width: 100%;
+    display: flex;
+    padding: 10px 20px 30px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    flex: 1 0 0;
+    align-self: stretch;
+  }
+  .how-it-works .info-card .card .card-content .cicle img {
+    max-width: 160px;
+  }
+  .how-it-works .info-card .card .card-content .info .text-top {
+    font-size: 16px;
+  }
+  .how-it-works .info-card .card .card-content .info .text-bottom {
+    font-size: 12px;
+  }
+}
+@media (max-width: 800px) {
+  .how-it-works {
+    padding: 40px 72px;
+  }
+  .how-it-works .text-works .text-up {
+    font-size: 28px;
+  }
+  .how-it-works .text-works .text-bottom {
+    font-size: 16px;
+  }
+  .how-it-works .info-card {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    max-width: 690px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  .how-it-works .info-card .card {
+    width: 100%;
+    max-width: 210px;
+    border-radius: 20px;
+    background: var(--Background---Secondary, #3b3b3b);
+    align-self: stretch;
+  }
+  .how-it-works .info-card .card .card-content {
+    width: 100%;
+    display: flex;
+    padding: 10px 20px 30px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    flex: 1 0 0;
+    align-self: stretch;
+  }
+  .how-it-works .info-card .card .card-content .cicle img {
+    max-width: 133px;
+  }
+  .how-it-works .info-card .card .card-content .info .text-top {
+    font-size: 16px;
+  }
+  .how-it-works .info-card .card .card-content .info .text-bottom {
+    font-size: 12px;
+  }
+}
+@media (max-width: 926px) {
+  .subscribe-widget {
+    padding: 40px 72px;
+  }
+  .subscribe-widget .subscribe {
+    padding: 40px 30px;
+    max-width: 690px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+    align-items: normal;
+  }
+  .subscribe-widget .subscribe .subscribe-img {
+    width: 100%;
+    max-width: 300px;
+    max-height: 280px;
+  }
+  .subscribe-widget .subscribe .subscribe-img img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    max-height: 280px;
+  }
+  .subscribe-widget .subscribe .subscribe-join {
+    max-width: 300px;
+  }
+  .subscribe-widget .subscribe .subscribe-join .text .text-top {
+    font-size: 28px;
+  }
+  .subscribe-widget .subscribe .subscribe-join .text .text-bottom {
+    font-size: 16px;
+  }
+  .subscribe-widget .subscribe .subscribe-join .subscribe-form {
+    display: block;
+    background-color: none;
+    position: inherit;
+    background: #3b3b3b;
+  }
+  .subscribe-widget .subscribe .subscribe-join .subscribe-form input {
+    width: 100%;
+    display: flex;
+    height: 46px;
+    padding: 16px 20px;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+  }
+  .subscribe-widget .subscribe .subscribe-join .subscribe-form .subscribe-btn {
+    position: inherit;
+    width: 100%;
+    display: flex;
+    margin-top: 16px;
+    text-align: center;
+    justify-content: center;
+    height: 46px;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+  }
+}
+@media (max-width: 834px) {
+  .subscribe-widget {
+    padding: 40px 72px;
+  }
+  .subscribe-widget .subscribe {
+    padding: 40px 30px;
+    max-width: 690px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+    align-items: normal;
+  }
+  .subscribe-widget .subscribe .subscribe-img {
+    width: 100%;
+    max-width: 300px;
+    max-height: 280px;
+  }
+  .subscribe-widget .subscribe .subscribe-img img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    max-height: 280px;
+  }
+  .subscribe-widget .subscribe .subscribe-join {
+    max-width: 300px;
+  }
+  .subscribe-widget .subscribe .subscribe-join .text .text-top {
+    font-size: 28px;
+  }
+  .subscribe-widget .subscribe .subscribe-join .text .text-bottom {
+    font-size: 16px;
+  }
+  .subscribe-widget .subscribe .subscribe-join .subscribe-form {
+    display: block;
+    background-color: none;
+    position: inherit;
+    background: #3b3b3b;
+  }
+  .subscribe-widget .subscribe .subscribe-join .subscribe-form input {
+    width: 100%;
+    display: flex;
+    height: 46px;
+    padding: 16px 20px;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+  }
+  .subscribe-widget .subscribe .subscribe-join .subscribe-form .subscribe-btn {
+    position: inherit;
+    width: 100%;
+    display: flex;
+    margin-top: 16px;
+    text-align: center;
+    justify-content: center;
+    height: 46px;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+  }
+}
+@media (max-width: 800px) {
+  .subscribe-widget {
+    padding: 40px 72px;
+    display: flex;
+    justify-content: center;
+  }
+  .subscribe-widget .subscribe {
+    display: block;
+    max-width: 360px;
+  }
+  .subscribe-widget .subscribe .subscribe-img {
+    width: 100%;
+    max-width: 300px;
+    max-height: 280px;
+  }
+  .subscribe-widget .subscribe .subscribe-img img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    max-height: 280px;
+  }
+  .subscribe-widget .subscribe .subscribe-join {
+    max-width: 300px;
+  }
+  .subscribe-widget .subscribe .subscribe-join .text .text-top {
+    font-size: 28px;
+  }
+  .subscribe-widget .subscribe .subscribe-join .text .text-bottom {
+    font-size: 16px;
+  }
+  .subscribe-widget .subscribe .subscribe-join .subscribe-form {
+    display: block;
+    background-color: none;
+    position: inherit;
+    background: #3b3b3b;
+  }
+  .subscribe-widget .subscribe .subscribe-join .subscribe-form input {
+    width: 100%;
+    display: flex;
+    height: 46px;
+    padding: 16px 20px;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+  }
+  .subscribe-widget .subscribe .subscribe-join .subscribe-form .subscribe-btn {
+    position: inherit;
+    width: 100%;
+    display: flex;
+    margin-top: 16px;
+    text-align: center;
+    justify-content: center;
+    height: 46px;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
   }
 }
 @media (max-width: 430px) {
@@ -1986,6 +2483,7 @@ header .header-content .header-right-block .space-walking .space-walking-content
     max-width: 690px;
     align-items: flex-start;
     gap: 30px;
+    padding-bottom: 40px;
   }
   .discover-more-nfts .discover-content .nft-cards .card-nft-hidden {
     width: 100%;
@@ -2034,6 +2532,9 @@ header .header-content .header-right-block .space-walking .space-walking-content
     flex: 1 0 0;
     border-radius: 20px;
     border: 2px solid var(--Call-to-Action, #a259ff);
+  }
+  .discover-more-nfts .discover-content .btn-see {
+    max-width: 100%;
   }
 }
 @media (max-width: 375px) {
@@ -2100,6 +2601,173 @@ header .header-content .header-right-block .space-walking .space-walking-content
     flex: 1 0 0;
     border-radius: 20px;
     border: 2px solid var(--Call-to-Action, #a259ff);
+    cursor: pointer;
+    user-select: none;
+  }
+}
+@media (max-width: 430px) {
+  .how-it-works {
+    padding: 0px 30px 40px 30px;
+  }
+  .how-it-works .text-works {
+    padding-top: 0;
+  }
+  .how-it-works .text-works .text-up {
+    font-size: 28px;
+  }
+  .how-it-works .text-works .text-bottom {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .how-it-works .info-card {
+    display: flex;
+    gap: 30px;
+    margin-top: 0;
+  }
+  .how-it-works .info-card .card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    padding: 20px;
+  }
+  .how-it-works .info-card .card .card-content {
+    display: contents;
+  }
+  .how-it-works .info-card .card .card-content .cicle img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .how-it-works .info-card .card .card-content .info {
+    margin-left: 20px;
+  }
+  .how-it-works .info-card .card .card-content .info .text-top {
+    text-align: start;
+    font-size: 18px;
+  }
+  .how-it-works .info-card .card .card-content .info .text-bottom {
+    text-align: start;
+    font-size: 14px;
+    text-transform: lowercase;
+  }
+  .how-it-works .info-card .card .card-content .info .text-bottom span {
+    text-transform: uppercase;
+  }
+  .how-it-works .info-card .card .card-content .info .text-bottom::first-letter {
+    text-transform: uppercase;
+  }
+}
+@media (max-width: 375px) {
+  .how-it-works {
+    padding: 0px 30px 40px 30px;
+  }
+  .how-it-works .text-works {
+    padding-top: 0;
+  }
+  .how-it-works .text-works .text-up {
+    font-size: 28px;
+  }
+  .how-it-works .text-works .text-bottom {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .how-it-works .info-card {
+    display: flex;
+    gap: 30px;
+    margin-top: 0;
+  }
+  .how-it-works .info-card .card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    padding: 20px;
+  }
+  .how-it-works .info-card .card .card-content {
+    display: contents;
+  }
+  .how-it-works .info-card .card .card-content .cicle img {
+    max-width: 83px;
+    max-height: 83px;
+  }
+  .how-it-works .info-card .card .card-content .info {
+    max-width: 155px;
+  }
+  .how-it-works .info-card .card .card-content .info .text-top {
+    text-align: start;
+    font-size: 16px;
+  }
+  .how-it-works .info-card .card .card-content .info .text-bottom {
+    text-align: start;
+    font-size: 12px;
+    text-transform: lowercase;
+  }
+  .how-it-works .info-card .card .card-content .info .text-bottom span {
+    text-transform: uppercase;
+  }
+  .how-it-works .info-card .card .card-content .info .text-bottom::first-letter {
+    text-transform: uppercase;
+  }
+}
+@media (max-width: 375px) {
+  .subscribe-widget {
+    padding: 40px 30px;
+  }
+  .subscribe-widget .subscribe {
+    display: flex;
+    max-width: 315px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 0px;
+    background: var(--Background, #2b2b2b);
+  }
+  .subscribe-widget .subscribe .subscribe-img {
+    width: 100%;
+    max-width: inherit;
+  }
+  .subscribe-widget .subscribe .subscribe-img img {
+    display: flex;
+    width: 100%;
+    max-width: inherit;
+  }
+  .subscribe-widget .subscribe .subscribe-join {
+    max-width: inherit;
+  }
+  .subscribe-widget .subscribe .subscribe-join .text .text-top {
+    font-size: 28px;
+  }
+  .subscribe-widget .subscribe .subscribe-join .text .text-bottom {
+    font-size: 16px;
+  }
+  .subscribe-widget .subscribe .subscribe-join .subscribe-form {
+    display: block;
+    background-color: none;
+    position: inherit;
+    background: var(--Background, #2b2b2b);
+  }
+  .subscribe-widget .subscribe .subscribe-join .subscribe-form input {
+    width: 100%;
+    display: flex;
+    height: 46px;
+    padding: 16px 20px;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+  }
+  .subscribe-widget .subscribe .subscribe-join .subscribe-form .subscribe-btn {
+    position: inherit;
+    width: 100%;
+    display: flex;
+    margin-top: 16px;
+    text-align: center;
+    justify-content: center;
+    height: 46px;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
   }
 }
 

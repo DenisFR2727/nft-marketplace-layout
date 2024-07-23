@@ -1,0 +1,115 @@
+@media (max-width: 430px) {
+  .how-it-works {
+    padding: 0px 30px 40px 30px;
+    .text-works {
+      padding-top: 0;
+      .text-up {
+        font-size: 28px;
+      }
+      .text-bottom {
+        margin-top: 10px;
+        font-size: 16px;
+      }
+    }
+    .info-card {
+      display: flex;
+      gap: 30px;
+      margin-top: 0;
+
+      .card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 100%;
+        padding: 20px;
+        .card-content {
+          display: contents;
+
+          .cicle {
+            img {
+              max-width: 100px;
+              max-height: 100px;
+            }
+          }
+          .info {
+            margin-left: 20px;
+            .text-top {
+              text-align: start;
+              font-size: 18px;
+            }
+            .text-bottom {
+              text-align: start;
+              font-size: 14px;
+              text-transform: lowercase;
+
+              span {
+                text-transform: uppercase;
+              }
+              &::first-letter {
+                text-transform: uppercase;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .how-it-works {
+    padding: 0px 30px 40px 30px;
+    .text-works {
+      padding-top: 0;
+      .text-up {
+        font-size: 28px;
+      }
+      .text-bottom {
+        margin-top: 10px;
+        font-size: 16px;
+      }
+    }
+    .info-card {
+      display: flex;
+      gap: 30px;
+      margin-top: 0;
+
+      .card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 100%;
+        padding: 20px;
+        .card-content {
+          display: contents;
+
+          .cicle {
+            img {
+              max-width: 83px;
+              max-height: 83px;
+            }
+          }
+          .info {
+            max-width: 155px;
+            .text-top {
+              text-align: start;
+              font-size: 16px;
+            }
+            .text-bottom {
+              text-align: start;
+              font-size: 12px;
+              text-transform: lowercase;
+
+              span {
+                text-transform: uppercase;
+              }
+              &::first-letter {
+                text-transform: uppercase;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

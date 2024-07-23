@@ -18,6 +18,8 @@
 @import "_toprated.scss";
 @import "./browse.scss";
 @import "./discover-nfts.scss";
+@import "./how-it-works";
+@import "./subscribe";
 
 // tablet
 @import "./tablet/nav.tablet";
@@ -26,6 +28,8 @@
 @import "./tablet/toprated.tablet";
 @import "./tablet/browse.tablet";
 @import "./tablet/discover.tablet";
+@import "./tablet/_how.tablet.scss";
+@import "./tablet/subscribe.tablet";
 
 // mobile
 @import "./mobile/nav.mobile";
@@ -34,3 +38,5 @@
 @import "./mobile/toprated.mobile";
 @import "./mobile/browse.mobile";
 @import "./mobile/discover.mobile";
+@import "./mobile/how.mobile";
+@import "./mobile/subscribe.mobile";

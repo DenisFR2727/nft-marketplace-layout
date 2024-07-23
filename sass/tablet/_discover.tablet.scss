@@ -21,6 +21,7 @@
       .nft-cards {
         width: 100%;
         display: flex;
+
         flex-wrap: wrap;
         justify-content: center;
         width: 690px;
@@ -66,6 +67,7 @@
       }
       .btn-see {
         margin: 0 auto;
+        margin-top: 40px;
         display: flex;
         height: 60px;
         padding: 0px 50px;

@@ -1,0 +1,196 @@
+@media (max-width: 926px) {
+  .subscribe-widget {
+    padding: 40px 72px;
+    .subscribe {
+      padding: 40px 30px;
+      max-width: 690px;
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 30px;
+      align-items: normal;
+
+      .subscribe-img {
+        width: 100%;
+        max-width: 300px;
+        max-height: 280px;
+        img {
+          display: flex;
+          width: 100%;
+          height: 100%;
+          max-width: 300px;
+          max-height: 280px;
+        }
+      }
+      .subscribe-join {
+        max-width: 300px;
+        .text {
+          .text-top {
+            font-size: 28px;
+          }
+          .text-bottom {
+            font-size: 16px;
+          }
+        }
+        .subscribe-form {
+          display: block;
+          background-color: none;
+          position: inherit;
+          background: #3b3b3b;
+          input {
+            width: 100%;
+            display: flex;
+            height: 46px;
+            padding: 16px 20px;
+            align-items: center;
+            gap: 12px;
+            align-self: stretch;
+          }
+          .subscribe-btn {
+            position: inherit;
+            width: 100%;
+            display: flex;
+            margin-top: 16px;
+            text-align: center;
+            justify-content: center;
+            height: 46px;
+            padding: 0px 50px;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+            align-self: stretch;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 834px) {
+  .subscribe-widget {
+    padding: 40px 72px;
+    .subscribe {
+      padding: 40px 30px;
+      max-width: 690px;
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 30px;
+      align-items: normal;
+
+      .subscribe-img {
+        width: 100%;
+        max-width: 300px;
+        max-height: 280px;
+        img {
+          display: flex;
+          width: 100%;
+          height: 100%;
+          max-width: 300px;
+          max-height: 280px;
+        }
+      }
+      .subscribe-join {
+        max-width: 300px;
+        .text {
+          .text-top {
+            font-size: 28px;
+          }
+          .text-bottom {
+            font-size: 16px;
+          }
+        }
+        .subscribe-form {
+          display: block;
+          background-color: none;
+          position: inherit;
+          background: #3b3b3b;
+          input {
+            width: 100%;
+            display: flex;
+            height: 46px;
+            padding: 16px 20px;
+            align-items: center;
+            gap: 12px;
+            align-self: stretch;
+          }
+          .subscribe-btn {
+            position: inherit;
+            width: 100%;
+            display: flex;
+            margin-top: 16px;
+            text-align: center;
+            justify-content: center;
+            height: 46px;
+            padding: 0px 50px;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+            align-self: stretch;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 800px) {
+  .subscribe-widget {
+    padding: 40px 72px;
+    display: flex;
+    justify-content: center;
+    .subscribe {
+      display: block;
+      max-width: 360px;
+
+      .subscribe-img {
+        width: 100%;
+        max-width: 300px;
+        max-height: 280px;
+        img {
+          display: flex;
+          width: 100%;
+          height: 100%;
+          max-width: 300px;
+          max-height: 280px;
+        }
+      }
+      .subscribe-join {
+        max-width: 300px;
+        .text {
+          .text-top {
+            font-size: 28px;
+          }
+          .text-bottom {
+            font-size: 16px;
+          }
+        }
+        .subscribe-form {
+          display: block;
+          background-color: none;
+          position: inherit;
+          background: #3b3b3b;
+          input {
+            width: 100%;
+            display: flex;
+            height: 46px;
+            padding: 16px 20px;
+            align-items: center;
+            gap: 12px;
+            align-self: stretch;
+          }
+          .subscribe-btn {
+            position: inherit;
+            width: 100%;
+            display: flex;
+            margin-top: 16px;
+            text-align: center;
+            justify-content: center;
+            height: 46px;
+            padding: 0px 50px;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+            align-self: stretch;
+          }
+        }
+      }
+    }
+  }
+}
