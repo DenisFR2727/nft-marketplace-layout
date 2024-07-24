@@ -20,6 +20,7 @@
 @import "./discover-nfts.scss";
 @import "./how-it-works";
 @import "./subscribe";
+@import "./footer";
 
 // tablet
 @import "./tablet/nav.tablet";
@@ -30,6 +31,7 @@
 @import "./tablet/discover.tablet";
 @import "./tablet/_how.tablet.scss";
 @import "./tablet/subscribe.tablet";
+@import "./tablet/footer.tablet";
 
 // mobile
 @import "./mobile/nav.mobile";
@@ -40,3 +42,4 @@
 @import "./mobile/discover.mobile";
 @import "./mobile/how.mobile";
 @import "./mobile/_subscribe.mobile";
+@import "./mobile/footer.mobile";

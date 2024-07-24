@@ -1,3 +1,8 @@
+$color-white: #fff;
+$background: #3b3b3b;
+$Call-to-Action: #a259ff;
+$font-Space-Mono: "Space Mono";
+$font-Work-Sans: "Work Sans";
 @media (max-width: 430px) {
   .top-rated-artists {
     padding: 40px 30px;
@@ -58,12 +63,12 @@
           border-radius: 20px;
           color: #fff;
           text-align: center;
-          font-family: "Work Sans";
+          font-family: $font-Work-Sans;
           font-size: 16px;
           font-style: normal;
           font-weight: 600;
           line-height: 140%;
-          border: 2px solid var(--Call-to-Action, #a259ff);
+          border: 2px solid $Call-to-Action;
           user-select: none;
           cursor: pointer;
         }
@@ -130,14 +135,14 @@
           gap: 12px;
           flex: 1 0 0;
           border-radius: 20px;
-          color: #fff;
+          color: $color-white;
           text-align: center;
-          font-family: "Work Sans";
+          font-family: $font-Work-Sans;
           font-size: 16px;
           font-style: normal;
           font-weight: 600;
           line-height: 140%;
-          border: 2px solid var(--Call-to-Action, #a259ff);
+          border: 2px solid $Call-to-Action;
         }
       }
     }

@@ -1,3 +1,8 @@
+$color-white: #fff;
+$background: #3b3b3b;
+$Call-to-Action: #a259ff;
+$font-Space-Mono: "Space Mono";
+$font-Work-Sans: "Work Sans";
 .trending-collection {
   padding-left: 115px;
   padding-right: 115px;
@@ -10,10 +15,10 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
-    font-family: "Work Sans";
+    font-family: $font-Work-Sans;
     text-transform: capitalize;
     font-style: normal;
-    color: #fff;
+    color: $color-white;
     .text-lg {
       font-size: 38px;
       font-weight: 600;
@@ -29,7 +34,7 @@
     margin-top: 60px;
     display: flex;
     gap: 30px;
-    // justify-content: space-between;
+
     .card {
       .collection {
         display: flex;
@@ -48,13 +53,11 @@
           justify-content: center;
           align-items: center;
           gap: 10px;
-          // flex: 1 0 0;
           border-radius: 20px;
           .num {
-            color: #fff;
+            color: $color-white;
             text-align: center;
-            /* H5 - Space Mono */
-            font-family: "Space Mono";
+            font-family: $font-Space-Mono;
             font-size: 22px;
             font-style: normal;
             font-weight: 700;
@@ -66,9 +69,8 @@
       .collection-name {
         padding-top: 15px;
         .nft-names {
-          color: #fff;
-          /* H5 - Work Sans */
-          font-family: "Work Sans";
+          color: $color-white;
+          font-family: $font-Work-Sans;
           font-size: 22px;
           font-style: normal;
           font-weight: 600;
@@ -82,8 +84,8 @@
           p {
             padding-left: 12px;
             flex: 1 0 0;
-            color: #fff;
-            font-family: "Work Sans";
+            color: $color-white;
+            font-family: $font-Work-Sans;
             font-size: 16px;
             font-style: normal;
             font-weight: 400;

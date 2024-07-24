@@ -1,3 +1,9 @@
+$color-white: #fff;
+$background: #3b3b3b;
+$Call-to-Action: #a259ff;
+$font-Space-Mono: "Space Mono";
+$font-Work-Sans: "Work Sans";
+
 .subscribe-widget {
   padding: 40px 115px 80px 115px;
 
@@ -8,15 +14,15 @@
     align-items: center;
     gap: 80px;
     border-radius: 20px;
-    background: #3b3b3b;
+    background: $background;
     flex-wrap: wrap;
 
     .subscribe-join {
       width: 100%;
       max-width: 425px;
       .text {
-        color: var(--White, #fff);
-        font-family: "Work Sans";
+        color: $color-white;
+        font-family: $font-Work-Sans;
         font-style: normal;
         text-transform: capitalize;
         .text-top {
@@ -32,7 +38,7 @@
       .subscribe-form {
         margin-top: 40px;
         display: flex;
-        background-color: #fff;
+        background-color: $color-white;
         border-radius: 20px;
         position: relative;
         input {
@@ -43,21 +49,21 @@
           gap: 12px;
           align-self: stretch;
           border-radius: 20px;
-          background: var(--Text, #fff);
-          font-family: "Work Sans";
+          background: $color-white;
+          font-family: $font-Work-Sans;
           font-size: 16px;
           font-style: normal;
           font-weight: 400;
           line-height: 140%;
           border: none;
-          color: var(--Background, #2b2b2b);
+          color: #2b2b2b;
         }
         .subscribe-btn {
           position: absolute;
           right: 0;
-          color: #fff;
+          color: $color-white;
           display: flex;
-          font-family: "Work Sans";
+          font-family: $font-Work-Sans;
           font-size: 16px;
           font-style: normal;
           font-weight: 600;
@@ -67,7 +73,7 @@
           align-items: center;
           gap: 12px;
           border-radius: 20px;
-          background: var(--Call-to-Action, #a259ff);
+          background: $Call-to-Action;
           cursor: pointer;
           user-select: none;
         }

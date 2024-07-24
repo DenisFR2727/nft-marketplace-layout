@@ -1,0 +1,42 @@
+@media (max-width: 926px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #3b3b3b;
+    padding: 40px 30px;
+    .footer-content {
+      display: flex;
+      flex-direction: column;
+
+      ul {
+        align-items: inherit;
+
+        li {
+          .subscribe-form {
+            background-color: #3b3b3b;
+            input {
+              width: 100%;
+            }
+            .subscribe-btn {
+              margin-left: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 834px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #3b3b3b;
+    padding: 40px 72px 0px 72px;
+    .footer-content {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

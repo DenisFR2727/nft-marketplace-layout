@@ -1,0 +1,121 @@
+footer {
+  width: 100%;
+  background-color: #3b3b3b;
+  padding: 40px 146px 40px 146px;
+  .footer-content {
+    display: flex;
+    gap: 30px;
+    .explore {
+      width: 100%;
+      max-width: 240px;
+    }
+    ul {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 30px;
+
+      &:first-child {
+        padding-right: 30px;
+      }
+      li {
+        list-style: none;
+        gap: 25px;
+        color: grey;
+
+        .logo-marketplace {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+        }
+        .socials-footer {
+          //   margin-top: 15px;
+          display: flex;
+          align-items: flex-start;
+          gap: 10px;
+        }
+        .subscribe-form {
+          display: flex;
+          background-color: $color-white;
+          border-radius: 20px;
+
+          input {
+            display: flex;
+            height: 60px;
+            padding: 16px 0px 16px 20px;
+            align-items: center;
+            gap: 12px;
+            align-self: stretch;
+            border-radius: 20px;
+            background: $color-white;
+            font-family: $font-Work-Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 140%;
+            border: none;
+            color: #2b2b2b;
+          }
+          .subscribe-btn {
+            right: 0;
+            color: $color-white;
+            display: flex;
+            font-family: $font-Work-Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            height: 60px;
+            padding: 0px 50px;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 12px;
+            border-radius: 20px;
+            background: $Call-to-Action;
+            cursor: pointer;
+            user-select: none;
+
+            .subscribe-icon-btn {
+              display: none;
+            }
+          }
+        }
+        &:first-child {
+          a {
+            color: #fff;
+            font-family: "Space Mono";
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 160%; /* 35.2px */
+            text-transform: capitalize;
+          }
+        }
+        a {
+          color: #ccc;
+          font-family: "Work Sans";
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 140%;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .line-footer {
+    margin-top: 40px;
+    width: 100%;
+    max-width: 1049.414px;
+    height: 1px;
+    background: #858584;
+  }
+  .text {
+    color: #ccc;
+    margin-top: 20px;
+    font-family: "Work Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+  }
+}

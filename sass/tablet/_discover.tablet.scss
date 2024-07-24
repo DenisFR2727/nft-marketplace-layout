@@ -1,3 +1,8 @@
+$color-white: #fff;
+$background: #3b3b3b;
+$Call-to-Action: #a259ff;
+$font-Space-Mono: "Space Mono";
+$font-Work-Sans: "Work Sans";
 @media (max-width: 926px) {
   .discover-more-nfts {
     padding: 40px 72px;
@@ -30,36 +35,25 @@
         .card {
           .nft {
             display: flex;
-            img {
-            }
           }
           .nft-info {
             padding: 20px 30px 25px 30px;
-            background-color: #3b3b3b;
+            background-color: $background;
             border-radius: 0 0 20px 20px;
 
             .info-content {
-              color: var(--White, #fff);
+              color: $color-white;
               font-style: normal;
-              .text {
-              }
+
               .artist-name {
                 display: flex;
                 align-items: center;
                 margin-bottom: 25px;
                 padding-top: 5px;
-                img {
-                }
-                .name {
-                }
               }
               .price {
                 font-weight: 400;
-                font-family: "Space Mono";
-                .price-text {
-                }
-                .price-crypto {
-                }
+                font-family: $font-Space-Mono;
               }
             }
           }
@@ -74,14 +68,14 @@
         justify-content: center;
         align-items: center;
         gap: 12px;
-        color: #fff;
+        color: $color-white;
         text-align: center;
-        font-family: "Work Sans";
+        font-family: $font-Space-Mono;
         font-size: 16px;
         font-weight: 600;
         line-height: 140%;
         border-radius: 20px;
-        border: 2px solid var(--Call-to-Action, #a259ff);
+        border: 2px solid $Call-to-Action;
         user-select: none;
         cursor: pointer;
       }
@@ -103,11 +97,8 @@
             font-size: 16px;
           }
         }
-        .btn-see-all {
-        }
       }
       .nft-cards {
-        // width: 100%;
         display: flex;
         max-width: 690px;
         align-items: flex-start;
@@ -119,8 +110,6 @@
         .card {
           .nft {
             display: flex;
-            img {
-            }
           }
           .nft-info {
             padding: 20px 30px 25px 30px;
@@ -128,27 +117,18 @@
             border-radius: 0 0 20px 20px;
 
             .info-content {
-              color: var(--White, #fff);
+              color: $color-white;
               font-style: normal;
-              .text {
-              }
+
               .artist-name {
                 display: flex;
                 align-items: center;
                 margin-bottom: 25px;
                 padding-top: 5px;
-                img {
-                }
-                .name {
-                }
               }
               .price {
                 font-weight: 400;
-                font-family: "Space Mono";
-                .price-text {
-                }
-                .price-crypto {
-                }
+                font-family: $font-Space-Mono;
               }
             }
           }
@@ -199,11 +179,11 @@
           }
           .nft-info {
             padding: 20px 30px 25px 30px;
-            background-color: #3b3b3b;
+            background-color: $background;
             border-radius: 0 0 20px 20px;
 
             .info-content {
-              color: var(--White, #fff);
+              color: $color-white;
               font-style: normal;
 
               .artist-name {
@@ -214,7 +194,7 @@
               }
               .price {
                 font-weight: 400;
-                font-family: "Space Mono";
+                font-family: $font-Space-Mono;
               }
             }
           }

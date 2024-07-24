@@ -1,3 +1,7 @@
+$color-white: #fff;
+$background: #3b3b3b;
+$font-Work-Sans: "Work Sans";
+
 .browse-categories {
   padding: 80px 115px;
   .browse {
@@ -46,12 +50,12 @@
         border-radius: 0 0 20px 20px;
         background: #3b3b3b;
         .text {
-          color: var(--White, #fff);
-          font-family: "Work Sans";
+          color: $color-white;
+          font-family: $font-Work-Sans;
           font-size: 22px;
           font-style: normal;
           font-weight: 600;
-          line-height: 140%; /* 30.8px */
+          line-height: 140%;
           text-transform: capitalize;
         }
       }

@@ -323,7 +323,6 @@ header .header-content .header-right-block .space-walking .space-walking-content
 .trending-collection .collection-card .card .collection .counter-nft .num {
   color: #fff;
   text-align: center;
-  /* H5 - Space Mono */
   font-family: "Space Mono";
   font-size: 22px;
   font-style: normal;
@@ -336,7 +335,6 @@ header .header-content .header-right-block .space-walking .space-walking-content
 }
 .trending-collection .collection-card .card .collection-name .nft-names {
   color: #fff;
-  /* H5 - Work Sans */
   font-family: "Work Sans";
   font-size: 22px;
   font-style: normal;
@@ -405,7 +403,7 @@ header .header-content .header-right-block .space-walking .space-walking-content
   font-weight: 600;
   line-height: 140%;
   border-radius: 20px;
-  border: 2px solid var(--Call-to-Action, #a259ff);
+  border: 2px solid #a259ff;
   user-select: none;
   cursor: pointer;
 }
@@ -435,7 +433,6 @@ header .header-content .header-right-block .space-walking .space-walking-content
   height: 30px;
   background: var(--Background, #2b2b2b);
   text-align: center;
-  /* Base (Body) - Space Mono */
   font-family: "Space Mono";
   font-size: 16px;
   font-style: normal;
@@ -450,7 +447,7 @@ header .header-content .header-right-block .space-walking .space-walking-content
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 4px 10px;
-  color: var(--caption-label-text, #858584);
+  color: #858584;
 }
 .top-rated-artists .top-rated-content .cards-artists .card .card-content .number-and-img img {
   display: flex;
@@ -463,7 +460,6 @@ header .header-content .header-right-block .space-walking .space-walking-content
 .top-rated-artists .top-rated-content .cards-artists .card .text-name-price .text-name {
   color: #fff;
   text-align: center;
-  /* H5 - Work Sans */
   font-family: "Work Sans";
   font-size: 22px;
   font-style: normal;
@@ -479,9 +475,8 @@ header .header-content .header-right-block .space-walking .space-walking-content
   align-self: stretch;
 }
 .top-rated-artists .top-rated-content .cards-artists .card .text-name-price .text-price p {
-  color: var(--caption-label-text, #858584);
+  color: #858584;
   text-align: right;
-  /* Base(Body) - Work Sans */
   font-family: "Work Sans";
   font-size: 16px;
   font-style: normal;
@@ -489,8 +484,7 @@ header .header-content .header-right-block .space-walking .space-walking-content
   line-height: 140%;
 }
 .top-rated-artists .top-rated-content .cards-artists .card .text-name-price .text-price .price {
-  color: var(--Text, #fff);
-  /* Base (Body) - Space Mono */
+  color: #fff;
   font-family: "Space Mono";
   font-size: 16px;
   font-style: normal;
@@ -551,12 +545,12 @@ header .header-content .header-right-block .space-walking .space-walking-content
   background: #3b3b3b;
 }
 .browse-categories .category-cards .card .browse-text .text {
-  color: var(--White, #fff);
+  color: #fff;
   font-family: "Work Sans";
   font-size: 22px;
   font-style: normal;
   font-weight: 600;
-  line-height: 140%; /* 30.8px */
+  line-height: 140%;
   text-transform: capitalize;
 }
 
@@ -572,7 +566,7 @@ header .header-content .header-right-block .space-walking .space-walking-content
   justify-content: space-between;
 }
 .discover-more-nfts .discover-content .discover-text .text {
-  color: var(--White, #fff);
+  color: #fff;
   font-family: "Work Sans";
   text-transform: capitalize;
   font-style: normal;
@@ -583,7 +577,7 @@ header .header-content .header-right-block .space-walking .space-walking-content
   line-height: 120%; /* 45.6px */
 }
 .discover-more-nfts .discover-content .discover-text .text .text-bottom {
-  color: var(--White, #fff);
+  color: #fff;
   font-family: "Work Sans";
   font-size: 22px;
   font-weight: 400;
@@ -603,7 +597,7 @@ header .header-content .header-right-block .space-walking .space-walking-content
   font-weight: 600;
   line-height: 140%;
   border-radius: 20px;
-  border: 2px solid var(--Call-to-Action, #a259ff);
+  border: 2px solid #a259ff;
   user-select: none;
   cursor: pointer;
 }
@@ -625,7 +619,7 @@ header .header-content .header-right-block .space-walking .space-walking-content
   border-radius: 0 0 20px 20px;
 }
 .discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content {
-  color: var(--White, #fff);
+  color: #fff;
   font-style: normal;
 }
 .discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content .text {
@@ -759,7 +753,7 @@ header .header-content .header-right-block .space-walking .space-walking-content
   max-width: 425px;
 }
 .subscribe-widget .subscribe .subscribe-join .text {
-  color: var(--White, #fff);
+  color: #fff;
   font-family: "Work Sans";
   font-style: normal;
   text-transform: capitalize;
@@ -788,14 +782,14 @@ header .header-content .header-right-block .space-walking .space-walking-content
   gap: 12px;
   align-self: stretch;
   border-radius: 20px;
-  background: var(--Text, #fff);
+  background: #fff;
   font-family: "Work Sans";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 140%;
   border: none;
-  color: var(--Background, #2b2b2b);
+  color: #2b2b2b;
 }
 .subscribe-widget .subscribe .subscribe-join .subscribe-form .subscribe-btn {
   position: absolute;
@@ -812,9 +806,124 @@ header .header-content .header-right-block .space-walking .space-walking-content
   align-items: center;
   gap: 12px;
   border-radius: 20px;
-  background: var(--Call-to-Action, #a259ff);
+  background: #a259ff;
   cursor: pointer;
   user-select: none;
+}
+
+footer {
+  width: 100%;
+  background-color: #3b3b3b;
+  padding: 40px 146px 40px 146px;
+}
+footer .footer-content {
+  display: flex;
+  gap: 30px;
+}
+footer .footer-content .explore {
+  width: 100%;
+  max-width: 240px;
+}
+footer .footer-content ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+footer .footer-content ul:first-child {
+  padding-right: 30px;
+}
+footer .footer-content ul li {
+  list-style: none;
+  gap: 25px;
+  color: grey;
+}
+footer .footer-content ul li .logo-marketplace {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+footer .footer-content ul li .socials-footer {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+footer .footer-content ul li .subscribe-form {
+  display: flex;
+  background-color: #fff;
+  border-radius: 20px;
+}
+footer .footer-content ul li .subscribe-form input {
+  display: flex;
+  height: 60px;
+  padding: 16px 0px 16px 20px;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+  border-radius: 20px;
+  background: #fff;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  border: none;
+  color: #2b2b2b;
+}
+footer .footer-content ul li .subscribe-form .subscribe-btn {
+  right: 0;
+  color: #fff;
+  display: flex;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  height: 60px;
+  padding: 0px 50px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  border-radius: 20px;
+  background: #a259ff;
+  cursor: pointer;
+  user-select: none;
+}
+footer .footer-content ul li .subscribe-form .subscribe-btn .subscribe-icon-btn {
+  display: none;
+}
+footer .footer-content ul li:first-child a {
+  color: #fff;
+  font-family: "Space Mono";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 35.2px */
+  text-transform: capitalize;
+}
+footer .footer-content ul li a {
+  color: #ccc;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  text-decoration: none;
+}
+footer .line-footer {
+  margin-top: 40px;
+  width: 100%;
+  max-width: 1049.414px;
+  height: 1px;
+  background: #858584;
+}
+footer .text {
+  color: #ccc;
+  margin-top: 20px;
+  font-family: "Work Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
 }
 
 @media (max-width: 926px) {
@@ -1462,7 +1571,7 @@ header .header-content .header-right-block .space-walking .space-walking-content
     border-radius: 0 0 20px 20px;
   }
   .discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content {
-    color: var(--White, #fff);
+    color: #fff;
     font-style: normal;
   }
   .discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content .artist-name {
@@ -1486,12 +1595,12 @@ header .header-content .header-right-block .space-walking .space-walking-content
     gap: 12px;
     color: #fff;
     text-align: center;
-    font-family: "Work Sans";
+    font-family: "Space Mono";
     font-size: 16px;
     font-weight: 600;
     line-height: 140%;
     border-radius: 20px;
-    border: 2px solid var(--Call-to-Action, #a259ff);
+    border: 2px solid #a259ff;
     user-select: none;
     cursor: pointer;
   }
@@ -1524,7 +1633,7 @@ header .header-content .header-right-block .space-walking .space-walking-content
     border-radius: 0 0 20px 20px;
   }
   .discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content {
-    color: var(--White, #fff);
+    color: #fff;
     font-style: normal;
   }
   .discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content .artist-name {
@@ -1580,7 +1689,7 @@ header .header-content .header-right-block .space-walking .space-walking-content
     border-radius: 0 0 20px 20px;
   }
   .discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content {
-    color: var(--White, #fff);
+    color: #fff;
     font-style: normal;
   }
   .discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content .artist-name {
@@ -1616,7 +1725,7 @@ header .header-content .header-right-block .space-walking .space-walking-content
     width: 100%;
     max-width: 210px;
     border-radius: 20px;
-    background: var(--Background---Secondary, #3b3b3b);
+    background: #3b3b3b;
     align-self: stretch;
   }
   .how-it-works .info-card .card .card-content {
@@ -1661,7 +1770,7 @@ header .header-content .header-right-block .space-walking .space-walking-content
     width: 100%;
     max-width: 210px;
     border-radius: 20px;
-    background: var(--Background---Secondary, #3b3b3b);
+    background: #3b3b3b;
     align-self: stretch;
   }
   .how-it-works .info-card .card .card-content {
@@ -1709,7 +1818,7 @@ header .header-content .header-right-block .space-walking .space-walking-content
     width: 100%;
     max-width: 210px;
     border-radius: 20px;
-    background: var(--Background---Secondary, #3b3b3b);
+    background: #3b3b3b;
     align-self: stretch;
   }
   .how-it-works .info-card .card .card-content {
@@ -1917,6 +2026,44 @@ header .header-content .header-right-block .space-walking .space-walking-content
     align-items: center;
     gap: 12px;
     align-self: stretch;
+  }
+}
+@media (max-width: 926px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #3b3b3b;
+    padding: 40px 30px;
+  }
+  footer .footer-content {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .footer-content ul {
+    align-items: inherit;
+  }
+  footer .footer-content ul li .subscribe-form {
+    background-color: #3b3b3b;
+  }
+  footer .footer-content ul li .subscribe-form input {
+    width: 100%;
+  }
+  footer .footer-content ul li .subscribe-form .subscribe-btn {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 834px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #3b3b3b;
+    padding: 40px 72px 0px 72px;
+  }
+  footer .footer-content {
+    display: flex;
+    flex-direction: column;
   }
 }
 @media (max-width: 430px) {
@@ -2229,7 +2376,7 @@ header .header-content .header-right-block .space-walking .space-walking-content
     font-style: normal;
     font-weight: 600;
     line-height: 140%;
-    border: 2px solid var(--Call-to-Action, #a259ff);
+    border: 2px solid #a259ff;
     user-select: none;
     cursor: pointer;
   }
@@ -2293,7 +2440,7 @@ header .header-content .header-right-block .space-walking .space-walking-content
     font-style: normal;
     font-weight: 600;
     line-height: 140%;
-    border: 2px solid var(--Call-to-Action, #a259ff);
+    border: 2px solid #a259ff;
   }
 }
 @media (max-width: 430px) {
@@ -2505,7 +2652,7 @@ header .header-content .header-right-block .space-walking .space-walking-content
     border-radius: 0 0 20px 20px;
   }
   .discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content {
-    color: var(--White, #fff);
+    color: #fff;
     font-style: normal;
   }
   .discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content .artist-name {
@@ -2531,7 +2678,7 @@ header .header-content .header-right-block .space-walking .space-walking-content
     gap: 12px;
     flex: 1 0 0;
     border-radius: 20px;
-    border: 2px solid var(--Call-to-Action, #a259ff);
+    border: 2px solid #a259ff;
   }
   .discover-more-nfts .discover-content .btn-see {
     max-width: 100%;
@@ -2574,7 +2721,7 @@ header .header-content .header-right-block .space-walking .space-walking-content
     border-radius: 0 0 20px 20px;
   }
   .discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content {
-    color: var(--White, #fff);
+    color: #fff;
     font-style: normal;
   }
   .discover-more-nfts .discover-content .nft-cards .card .nft-info .info-content .artist-name {
@@ -2600,7 +2747,7 @@ header .header-content .header-right-block .space-walking .space-walking-content
     gap: 12px;
     flex: 1 0 0;
     border-radius: 20px;
-    border: 2px solid var(--Call-to-Action, #a259ff);
+    border: 2px solid #a259ff;
     cursor: pointer;
     user-select: none;
   }
@@ -2832,6 +2979,103 @@ header .header-content .header-right-block .space-walking .space-walking-content
     align-items: center;
     gap: 12px;
     align-self: stretch;
+  }
+}
+@media (max-width: 534px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #3b3b3b;
+    padding: 40px 30px;
+  }
+  footer .footer-content {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .footer-content ul {
+    align-items: inherit;
+  }
+  footer .footer-content ul li .subscribe-form {
+    display: block;
+    background-color: #3b3b3b;
+  }
+  footer .footer-content ul li .subscribe-form input {
+    width: 100%;
+  }
+  footer .footer-content ul li .subscribe-form .subscribe-btn {
+    width: 100%;
+    display: flex;
+    margin-top: 16px;
+    margin-left: 0px;
+    justify-content: center;
+  }
+  footer .footer-content ul li .subscribe-form .subscribe-btn .subscribe-icon-btn {
+    display: block;
+  }
+}
+@media (max-width: 430px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #3b3b3b;
+    padding: 40px 30px;
+  }
+  footer .footer-content {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .footer-content ul {
+    align-items: inherit;
+  }
+  footer .footer-content ul li .subscribe-form {
+    display: block;
+    background-color: #3b3b3b;
+  }
+  footer .footer-content ul li .subscribe-form input {
+    width: 100%;
+  }
+  footer .footer-content ul li .subscribe-form .subscribe-btn {
+    width: 100%;
+    display: flex;
+    margin-top: 16px;
+    justify-content: center;
+  }
+  footer .footer-content ul li .subscribe-form .subscribe-btn .subscribe-icon-btn {
+    display: block;
+  }
+}
+@media (max-width: 375px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #3b3b3b;
+    padding: 40px 30px;
+  }
+  footer .footer-content {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .footer-content ul {
+    align-items: inherit;
+  }
+  footer .footer-content ul li .subscribe-form {
+    display: block;
+    background-color: #3b3b3b;
+  }
+  footer .footer-content ul li .subscribe-form input {
+    width: 100%;
+  }
+  footer .footer-content ul li .subscribe-form .subscribe-btn {
+    width: 100%;
+    display: flex;
+    margin-top: 16px;
+    justify-content: center;
+  }
+  footer .footer-content ul li .subscribe-form .subscribe-btn .subscribe-icon-btn {
+    display: block;
   }
 }
 
