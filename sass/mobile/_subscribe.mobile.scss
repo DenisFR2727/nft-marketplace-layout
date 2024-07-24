@@ -1,3 +1,4 @@
+$background: #2b2b2b;
 @media (max-width: 434px) {
   .subscribe-widget {
     padding: 40px 30px;
@@ -9,7 +10,7 @@
       align-items: center;
       gap: 30px;
       padding: 0px;
-      background: var(--Background, #2b2b2b);
+      background: $background;
       .subscribe-img {
         width: 100%;
         max-width: inherit;
@@ -34,7 +35,7 @@
           display: block;
           background-color: none;
           position: inherit;
-          background: var(--Background, #2b2b2b);
+          background: $background;
           input {
             width: 100%;
             display: flex;
@@ -75,7 +76,7 @@
       align-items: center;
       gap: 30px;
       padding: 0px;
-      background: var(--Background, #2b2b2b);
+      background: $background;
       .subscribe-img {
         width: 100%;
         max-width: inherit;
@@ -99,7 +100,7 @@
           display: block;
           background-color: none;
           position: inherit;
-          background: var(--Background, #2b2b2b);
+          background: $background;
           input {
             width: 100%;
             display: flex;

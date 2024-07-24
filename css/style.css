@@ -2709,6 +2709,70 @@ header .header-content .header-right-block .space-walking .space-walking-content
     text-transform: uppercase;
   }
 }
+@media (max-width: 434px) {
+  .subscribe-widget {
+    padding: 40px 30px;
+  }
+  .subscribe-widget .subscribe {
+    padding: 40px 30px;
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 0px;
+    background: #2b2b2b;
+  }
+  .subscribe-widget .subscribe .subscribe-img {
+    width: 100%;
+    max-width: inherit;
+  }
+  .subscribe-widget .subscribe .subscribe-img img {
+    display: flex;
+    width: 100%;
+    max-width: inherit;
+  }
+  .subscribe-widget .subscribe .subscribe-join {
+    max-width: inherit;
+  }
+  .subscribe-widget .subscribe .subscribe-join .text {
+    margin-top: 20px;
+  }
+  .subscribe-widget .subscribe .subscribe-join .text .text-top {
+    font-size: 28px;
+  }
+  .subscribe-widget .subscribe .subscribe-join .text .text-bottom {
+    font-size: 16px;
+  }
+  .subscribe-widget .subscribe .subscribe-join .subscribe-form {
+    display: block;
+    background-color: none;
+    position: inherit;
+    background: #2b2b2b;
+  }
+  .subscribe-widget .subscribe .subscribe-join .subscribe-form input {
+    width: 100%;
+    display: flex;
+    height: 46px;
+    padding: 16px 20px;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+  }
+  .subscribe-widget .subscribe .subscribe-join .subscribe-form .subscribe-btn {
+    position: inherit;
+    width: 100%;
+    display: flex;
+    margin-top: 16px;
+    text-align: center;
+    justify-content: center;
+    height: 46px;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+  }
+}
 @media (max-width: 375px) {
   .subscribe-widget {
     padding: 40px 30px;
@@ -2720,7 +2784,7 @@ header .header-content .header-right-block .space-walking .space-walking-content
     align-items: center;
     gap: 30px;
     padding: 0px;
-    background: var(--Background, #2b2b2b);
+    background: #2b2b2b;
   }
   .subscribe-widget .subscribe .subscribe-img {
     width: 100%;
@@ -2744,7 +2808,7 @@ header .header-content .header-right-block .space-walking .space-walking-content
     display: block;
     background-color: none;
     position: inherit;
-    background: var(--Background, #2b2b2b);
+    background: #2b2b2b;
   }
   .subscribe-widget .subscribe .subscribe-join .subscribe-form input {
     width: 100%;
